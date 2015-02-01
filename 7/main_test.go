@@ -13,7 +13,7 @@ var tests = []testpair{
 	{10001, 104743},
 }
 
-func TestSmallestMultiple(t *testing.T) {
+func TestNthPrime(t *testing.T) {
 	for _, pair := range tests {
 		num := NthPrime(pair.input)
 		if num != pair.output {
