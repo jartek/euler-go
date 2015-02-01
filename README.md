@@ -1,2 +1,3 @@
-# euler-go
-Project Euler problems solved in golang
+###Current Progress
+----
+![Current Progress](https://projecteuler.net/profile/jartek.png)
