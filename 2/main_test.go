@@ -13,7 +13,7 @@ var tests = []testpair{
 	{4000000, 4613732},
 }
 
-func TestMultiples(t *testing.T) {
+func TestFibonacciSum(t *testing.T) {
 	for _, pair := range tests {
 		sum := FibonacciSum(pair.input)
 		if sum != pair.output {
