@@ -19,7 +19,7 @@ func NthPrime(n float64) float64 {
 	num = 1
 	for n != 0 {
 		for i = num + 1; ; i++ {
-			if isPrime(i) {
+			if (i == 2 || math.Mod(i, 2) != 0) && isPrime(i) {
 				n = n - 1
 				break
 			}

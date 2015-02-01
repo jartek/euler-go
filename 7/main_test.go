@@ -10,7 +10,7 @@ type testpair struct {
 var tests = []testpair{
 	{6, 13},
 	{7, 17},
-	{10001, 17},
+	{10001, 104743},
 }
 
 func TestSmallestMultiple(t *testing.T) {
